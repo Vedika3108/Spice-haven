@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order Online |Spice Haven</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Spice Haven</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="order.html">Order</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="order-page">
+    <h2>Place Your Order</h2>
+    <p>Fill in your details and enjoy your favorite dishes at your doorstep.</p>
+
+    <form class="order-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Your name" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" placeholder="+91 9876543210" required />
+
+      <label for="address">Delivery Address</label>
+      <textarea id="address" rows="4" placeholder="Enter your full address" required></textarea>
+
+      <label for="order">Your Order</label>
+      <textarea id="order" rows="3" placeholder="e.g. 2x Paneer Butter Masala, 1x Butter Naan" required></textarea>
+
+      <button type="submit" class="btn">Submit Order</button>
+    </form>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Need Help?</h2>
+    <p>Call us at +91 98765 43210 or email contact@Spice Haven.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Spice Haven. All rights reserved.</p>
+  </footer>
+</body>
+</html>
